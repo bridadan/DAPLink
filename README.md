@@ -1,4 +1,7 @@
 # DAPLink
+
+Small change
+
 DAPLink is firmware that runs on a microcontroller that is connected according to a Hardware Interface Circuit (HIC) guideline. This provides methods to program and debug an application running on ARM processors via JTAG or SWD. The interface firware exposes a USB composite device to the host OS with CDC, HID and MSC endpoints. These endpoints are critical when developing software for microcontrollers. Description of endpoints:
 * MSC - drag-n-drop programming flash memory
 * CDC - virtual com port for log, trace and terminal emulation
